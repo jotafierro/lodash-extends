@@ -1,6 +1,6 @@
 {
   "name": "lodash-extends",
-  "version": "0.1.12",
+  "version": "1.6.1",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
@@ -21,12 +21,12 @@
     "url": "https://github.com/jofierro/lodash-extends/issues"
   },
   "dependencies": {
-    "wrapper-path": "0.1.9",
-    "lodash": "4.11.1",
-    "uuid": "2.0.2"
+    "lodash": "^4.17.4",
+    "uuid": "^3.0.1",
+    "wrapper-path": "^1.0.3"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "3.0.2"
+    "mocha": "^3.2.0"
   }
 }
